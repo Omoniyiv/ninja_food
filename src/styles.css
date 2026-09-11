@@ -1,5 +1,13 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 @import "tailwindcss";
 
-
-
+/* to create a custom class */
+@theme {
+    --text-mammoth: 8rem;
+    --color-primary: #FF6363;
+    --color-secondary-100: #E2E2D5;
+    --color-secondary-200: #888883;
+    --font-Nunito: "Nunito", sans-serif;
+}
